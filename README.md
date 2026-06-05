@@ -14,4 +14,5 @@ brew install --cask roypadina/tap/languard
 
 | Cask | Description |
 |---|---|
+| **agentclimenu** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/AgentCliMenu) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged. [Repo](https://github.com/roypadina/LanGuard) |
