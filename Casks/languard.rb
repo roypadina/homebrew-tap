@@ -8,7 +8,7 @@ cask "languard" do
   desc "Menu-bar app that turns Wi-Fi off on wired LAN and back on when unplugged"
   homepage "https://github.com/roypadina/LanGuard"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "LanGuard.app"
 
