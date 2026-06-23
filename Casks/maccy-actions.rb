@@ -1,6 +1,6 @@
 cask "maccy-actions" do
-  version "2.6.1"
-  sha256 "c30eb12b79a8dc5fdbf4c31f52aabd0f6fb1c050a7b76d0d44034810a03f300c"
+  version "2.6.2"
+  sha256 "31248bfafa6ea6e9ff2a4ee239b2950026e106c400a71277869d63081d7c2026"
 
   url "https://github.com/roypadina/maccy-actions/releases/download/v#{version}/MaccyActions.zip",
       verified: "github.com/roypadina/maccy-actions/"
