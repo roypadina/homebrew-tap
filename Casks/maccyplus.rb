@@ -1,11 +1,11 @@
 cask "maccyplus" do
-  version "2.6.3"
-  sha256 "ac31c75dbd72b383d3653d1bd9172d6777d6d75d77af4523e06fdc372a9d4ea7"
+  version "2.6.4"
+  sha256 "701eb5d06282569e01957f38dbc92e7590bf5b704245638375784ca2c2c33099"
 
   url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip",
       verified: "github.com/roypadina/maccyplus/"
   name "MaccyPlus"
-  desc "Clipboard manager with rule-based actions and a headless config CLI"
+  desc "Clipboard manager with rule-based actions, plugins, and a headless config CLI"
   homepage "https://github.com/roypadina/maccyplus"
 
   depends_on macos: :sonoma
