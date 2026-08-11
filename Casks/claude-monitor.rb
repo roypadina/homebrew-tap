@@ -1,6 +1,6 @@
 cask "claude-monitor" do
-  version "1.0.0"
-  sha256 "93ed6418cce4a0737ffcb23a584d2a446c34f60149710c61b8c4bcb88ff19300"
+  version "1.1.0"
+  sha256 "4431381aaebb39b50d065489aa8feb73538e3d25876c2c781cb52d9cb162cfc7"
 
   url "https://github.com/roypadina/ClaudeMonitor/releases/download/v#{version}/ClaudeMonitor.zip",
       verified: "github.com/roypadina/ClaudeMonitor/"
