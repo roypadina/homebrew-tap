@@ -12,6 +12,8 @@ cask "meetalert" do
 
   app "MeetAlert.app"
 
+  zap trash: "~/.config/meetalert"
+
   caveats <<~EOS
     MeetAlert is ad-hoc signed (not notarized), so on first launch macOS may block it.
     Right-click MeetAlert in /Applications and choose Open, or run once:
@@ -20,8 +22,4 @@ cask "meetalert" do
     On first launch, grant Calendar access when prompted. Phone notifications
     need a one-time ntfy setup: https://github.com/roypadina/MeetAlert#ntfy-setup
   EOS
-
-  zap trash: [
-    "~/.config/meetalert",
-  ]
 end
