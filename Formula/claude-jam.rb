@@ -1,8 +1,8 @@
 class ClaudeJam < Formula
   desc "Share one real Claude Code session with other humans, over tmux and WebSockets"
   homepage "https://github.com/roypadina/claude-jam"
-  url "https://github.com/roypadina/claude-jam/archive/refs/tags/v0.18.0.tar.gz"
-  sha256 "606e98ad4f6369bb0bf56ad2ae0f9348c007316e09dee8e32d62c25e4b1875b3"
+  url "https://github.com/roypadina/claude-jam/archive/refs/tags/v0.19.0.tar.gz"
+  sha256 "38fd7d2472349e75dab86c646c4dbd481308ce1f452a5784258c5a1dd554a9cd"
   license "MIT"
 
   depends_on "node"
@@ -13,9 +13,11 @@ class ClaudeJam < Formula
     cd libexec do
       system "npm", "install", "--omit=dev", *std_npm_args(prefix: false)
     end
-    # The launcher resolves its siblings from BASH_SOURCE, so bin/jam has to exec
-    # the real script in libexec rather than symlink to it.
-    (bin/"jam").write_env_script libexec/"jam", PATH: "#{formula_opt_bin("node")}:$PATH"
+    # The launcher resolves its siblings from BASH_SOURCE, so bin/claude-jam and bin/jam have to
+    # exec the real script in libexec rather than symlink to it. jam is a deprecated alias for
+    # claude-jam and both wrappers point at the same libexec target.
+    (bin/"claude-jam").write_env_script libexec/"claude-jam", PATH: "#{formula_opt_bin("node")}:$PATH"
+    (bin/"jam").write_env_script libexec/"claude-jam", PATH: "#{formula_opt_bin("node")}:$PATH"
   end
 
   def caveats
@@ -30,12 +32,13 @@ class ClaudeJam < Formula
 
       The invite line the daemon prints starts with `node client.mjs …`, which is
       the from-source form. With this install, join with:
-        jam join <ws-url> --name You [--token <token>]
+        claude-jam join <ws-url> --name You [--token <token>]
     EOS
   end
 
   test do
-    assert_match "jam host", shell_output("#{bin}/jam --help 2>&1")
+    assert_match "claude-jam host", shell_output("#{bin}/claude-jam --help 2>&1")
+    assert_match "claude-jam host", shell_output("#{bin}/jam --help 2>&1")
     assert_path_exists libexec/"node_modules/ws"
   end
 end
