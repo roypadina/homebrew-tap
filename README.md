@@ -16,3 +16,13 @@ brew install --cask roypadina/tap/languard
 |---|---|
 | **agentclimenu** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/AgentCliMenu) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged. [Repo](https://github.com/roypadina/LanGuard) |
+
+## Formulae
+
+```bash
+brew install roypadina/tap/claude-jam
+```
+
+| Formula | Description |
+|---|---|
+| **claude-jam** | Share one real Claude Code session with other humans, over tmux and WebSockets. [Repo](https://github.com/roypadina/claude-jam) |
