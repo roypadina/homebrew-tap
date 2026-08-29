@@ -1,6 +1,6 @@
 cask "agentclimenu" do
   version "0.4.0"
-  sha256 "b848db433e65344d2db62f94592782e50c1028afe885328c36792c79f1ac0586"
+  sha256 "f6d22d6db6f59b1c7fbdfdcaf35110937b618a418881b52442521d636e4c2cd6"
 
   url "https://github.com/roypadina/AgentCliMenu/releases/download/v#{version}/AgentCliMenu.zip"
   name "Agent CLI Menu"
