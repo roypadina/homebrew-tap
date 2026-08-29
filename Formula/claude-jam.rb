@@ -35,7 +35,7 @@ class ClaudeJam < Formula
   end
 
   test do
-    assert_match "jam host", shell_output("#{bin}/jam --help 2>&1", 2)
+    assert_match "jam host", shell_output("#{bin}/jam --help 2>&1")
     assert_path_exists libexec/"node_modules/ws"
   end
 end
