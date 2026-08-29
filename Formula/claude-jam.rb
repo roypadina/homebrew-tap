@@ -1,8 +1,8 @@
 class ClaudeJam < Formula
   desc "Share one real Claude Code session with other humans, over tmux and WebSockets"
   homepage "https://github.com/roypadina/claude-jam"
-  url "https://github.com/roypadina/claude-jam/archive/refs/tags/v0.19.0.tar.gz"
-  sha256 "38fd7d2472349e75dab86c646c4dbd481308ce1f452a5784258c5a1dd554a9cd"
+  url "https://github.com/roypadina/claude-jam/archive/refs/tags/v0.20.0.tar.gz"
+  sha256 "02eaf6b9c93c6c37349dc4c8fa652b1493e59b532e8a41ac64679e94d7dcf069"
   license "MIT"
 
   depends_on "node"
