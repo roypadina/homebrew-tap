@@ -2,8 +2,7 @@ cask "maccyplus" do
   version "2.6.7"
   sha256 "8f847bee3748eb1ee882da911679b5c1c4c1cc6be80ec93451878d5f4a4f47f9"
 
-  url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip",
-      verified: "github.com/roypadina/maccyplus/"
+  url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip"
   name "MaccyPlus"
   desc "Clipboard manager with rule-based actions, plugins, and a headless config CLI"
   homepage "https://github.com/roypadina/maccyplus"

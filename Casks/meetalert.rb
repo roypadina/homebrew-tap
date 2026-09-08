@@ -2,8 +2,7 @@ cask "meetalert" do
   version "1.3.1"
   sha256 "72d72ad499ef20eee9f42fe5e912904b7e5bf3cd3076bd6ab1fa08a26ab74350"
 
-  url "https://github.com/roypadina/MeetAlert/releases/download/v#{version}/MeetAlert.zip",
-      verified: "github.com/roypadina/MeetAlert/"
+  url "https://github.com/roypadina/MeetAlert/releases/download/v#{version}/MeetAlert.zip"
   name "MeetAlert"
   desc "Unmissable meeting alerts — desktop popup, ntfy phone push, urgent escalation"
   homepage "https://github.com/roypadina/MeetAlert"

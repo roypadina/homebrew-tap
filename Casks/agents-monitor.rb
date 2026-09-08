@@ -2,8 +2,7 @@ cask "agents-monitor" do
   version "1.4.1"
   sha256 "f330842d48ddf0f9a93c694767eaa858eb958bbc4fd80d3154500605b3b01992"
 
-  url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip",
-      verified: "github.com/roypadina/AgentsMonitor/"
+  url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"
   desc "Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts"
   homepage "https://github.com/roypadina/AgentsMonitor"
