@@ -1,6 +1,6 @@
 cask "meetalert" do
-  version "1.3.1"
-  sha256 "72d72ad499ef20eee9f42fe5e912904b7e5bf3cd3076bd6ab1fa08a26ab74350"
+  version "1.4.0"
+  sha256 "f30495a2d27d92cc28d6d392973522c91ba1a08acd364633038b489b0388528d"
 
   url "https://github.com/roypadina/MeetAlert/releases/download/v#{version}/MeetAlert.zip"
   name "MeetAlert"
@@ -11,7 +11,10 @@ cask "meetalert" do
 
   app "MeetAlert.app"
 
-  zap trash: "~/.config/meetalert"
+  zap trash: [
+    "~/.config/meetalert",
+    "~/.config/meetalert-test",
+  ]
 
   caveats <<~EOS
     MeetAlert is ad-hoc signed (not notarized), so on first launch macOS may block it.
