@@ -11,13 +11,11 @@ cask "languard" do
 
   app "LanGuard.app"
 
+  zap trash: "~/Library/Preferences/com.roy.languard.plist"
+
   caveats <<~EOS
     LanGuard is ad-hoc signed (not notarized), so on first launch macOS may block it.
     Right-click LanGuard in /Applications and choose Open, or run once:
       xattr -dr com.apple.quarantine "/Applications/LanGuard.app"
   EOS
-
-  zap trash: [
-    "~/Library/Preferences/com.roy.languard.plist",
-  ]
 end

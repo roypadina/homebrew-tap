@@ -14,8 +14,11 @@ brew install --cask roypadina/tap/languard
 
 | Cask | Description |
 |---|---|
-| **agentclimenu** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/AgentCliMenu) |
+| **agentctl** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/agentctl) |
+| **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts. [Repo](https://github.com/roypadina/AgentsMonitor) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged. [Repo](https://github.com/roypadina/LanGuard) |
+| **maccyplus** | Maccy fork: clipboard manager with rule-based actions, plugins, and a headless config CLI. [Repo](https://github.com/roypadina/maccyplus) |
+| **meetalert** | Unmissable meeting alerts: desktop popup, ntfy phone push, urgent escalation. [Repo](https://github.com/roypadina/MeetAlert) |
 | **smarthiddenbar** | macOS 27 menu bar manager: one click hides items, icon bar + Apps list, use hidden items' menus without unhiding. [Repo](https://github.com/roypadina/SmartHiddenBar) |
 
 ## Formulae
