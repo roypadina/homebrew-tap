@@ -7,7 +7,7 @@ cask "smarthiddenbar" do
   desc "Menu-bar app that hides menu bar items and mirrors their menus"
   homepage "https://github.com/roypadina/SmartHiddenBar"
 
-  depends_on macos: ">= :golden_gate"
+  depends_on macos: :golden_gate
 
   app "SmartHiddenBar.app"
 
