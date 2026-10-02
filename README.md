@@ -16,6 +16,7 @@ brew install --cask roypadina/tap/languard
 |---|---|
 | **agentclimenu** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/AgentCliMenu) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged. [Repo](https://github.com/roypadina/LanGuard) |
+| **smarthiddenbar** | macOS 27 menu bar manager: one click hides items, icon bar + Apps list, use hidden items' menus without unhiding. [Repo](https://github.com/roypadina/SmartHiddenBar) |
 
 ## Formulae
 
