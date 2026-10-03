@@ -1,6 +1,6 @@
 cask "agentctl" do
-  version "0.9.5"
-  sha256 "ba6f69269e754fbb3b9bc56c62c6e18067cea8ae4865f6139893a0c2715abd56"
+  version "0.9.6"
+  sha256 "28b990f74a668a1c401569fa39b05d6da5e1efff51578eef1673f590661118e1"
 
   url "https://github.com/roypadina/agentctl/releases/download/v#{version}/agentctl.zip"
   name "Agentctl"
