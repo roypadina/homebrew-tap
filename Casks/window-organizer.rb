@@ -7,7 +7,7 @@ cask "window-organizer" do
   desc "Menu bar app to minimize, close, quit or force quit all apps with shortcuts"
   homepage "https://github.com/roypadina/window-organizer"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Window Organizer.app"
 
