@@ -1,6 +1,6 @@
 cask "window-organizer" do
-  version "0.1.0"
-  sha256 "e99e7d30d22cce12d61afe4cefeff8f240fc9a2e6d08cb7ae22c85aa348931ab"
+  version "0.2.0"
+  sha256 "8693d6917b97db4aeede02cf5a3ec4dade237110a2021797960490f92aa2cb82"
 
   url "https://github.com/roypadina/window-organizer/releases/download/v#{version}/Window-Organizer.zip"
   name "Window Organizer"
@@ -14,12 +14,12 @@ cask "window-organizer" do
   zap trash: "~/Library/Preferences/com.padina.window-organizer.plist"
 
   caveats <<~EOS
-    Window Organizer is ad-hoc signed (not notarized), so on first launch macOS may block it.
+    Window Organizer is self-signed (not notarized), so on first launch macOS may block it.
     Right-click Window Organizer in /Applications and choose Open, or run once:
       xattr -dr com.apple.quarantine "/Applications/Window Organizer.app"
 
-    Minimize and close need Accessibility permission. Re-check it after every update
-    (toggle it off and on in System Settings, or run
-    `tccutil reset Accessibility com.padina.window-organizer`).
+    Minimize and close need Accessibility permission. Since 0.2.0 the grant survives
+    updates. Upgrading from 0.1.0, run once and grant again:
+      tccutil reset Accessibility com.padina.window-organizer
   EOS
 end
