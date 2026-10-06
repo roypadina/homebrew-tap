@@ -1,6 +1,6 @@
 cask "vaultbar" do
-  version "0.1.3"
-  sha256 "efae0ae08c03f9a82bc282a3295799c8d9e50ef604f80e29eb077fe4923c7f7c"
+  version "0.2.0"
+  sha256 "5bde575d06afefe791fdb7389be5e55522a6b69f207ad5790a1767d6b401a148"
 
   url "https://github.com/roypadina/VaultBar/releases/download/v#{version}/VaultBar.zip"
   name "VaultBar"
@@ -10,6 +10,7 @@ cask "vaultbar" do
   depends_on macos: :sonoma
 
   app "VaultBar.app"
+  binary "#{appdir}/VaultBar.app/Contents/MacOS/VaultBar", target: "vaultbar"
 
   zap trash: "~/.config/vaultbar"
 
