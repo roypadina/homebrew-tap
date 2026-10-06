@@ -1,6 +1,6 @@
 cask "vaultbar" do
-  version "0.2.0"
-  sha256 "5bde575d06afefe791fdb7389be5e55522a6b69f207ad5790a1767d6b401a148"
+  version "0.2.1"
+  sha256 "52cc5a189256bb435300f44fcc85528f47884789a2c7481659519cdf4a36cfea"
 
   url "https://github.com/roypadina/VaultBar/releases/download/v#{version}/VaultBar.zip"
   name "VaultBar"
@@ -12,7 +12,11 @@ cask "vaultbar" do
   app "VaultBar.app"
   binary "#{appdir}/VaultBar.app/Contents/MacOS/VaultBar", target: "vaultbar"
 
-  zap trash: "~/.config/vaultbar"
+  zap launchctl: "com.padina.vaultbar.login",
+      trash:     [
+        "~/.config/vaultbar",
+        "~/Library/LaunchAgents/com.padina.vaultbar.login.plist",
+      ]
 
   caveats <<~EOS
     VaultBar is ad hoc signed (not notarized), so on first launch macOS may block it.
