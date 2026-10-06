@@ -1,6 +1,6 @@
 cask "vaultbar" do
-  version "0.1.2"
-  sha256 "391d42ff9c3c4683a52452018503531c3e0beb257e5009b4c1abcfec49a00346"
+  version "0.1.3"
+  sha256 "efae0ae08c03f9a82bc282a3295799c8d9e50ef604f80e29eb077fe4923c7f7c"
 
   url "https://github.com/roypadina/VaultBar/releases/download/v#{version}/VaultBar.zip"
   name "VaultBar"
