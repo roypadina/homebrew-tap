@@ -1,6 +1,6 @@
 cask "languard" do
-  version "1.1.0"
-  sha256 "c7ddeac865fbe47bd381b034ba81023999b93f104e9b60593b590694e65163e0"
+  version "1.1.1"
+  sha256 "e40ec8379ff58e9f321ae9b6b2903a76b61cd81fd9a4834ac5661a1a6318339f"
 
   url "https://github.com/roypadina/LanGuard/releases/download/v#{version}/LanGuard.zip"
   name "LanGuard"
