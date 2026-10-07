@@ -17,7 +17,7 @@ brew install --cask roypadina/tap/languard
 | **agentctl** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/agentctl) |
 | **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts. [Repo](https://github.com/roypadina/AgentsMonitor) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged; optional connection protection keeps running connections alive across LAN↔Wi-Fi switches. [Repo](https://github.com/roypadina/LanGuard) |
-| **maccyplus** | Maccy fork: clipboard manager with rule-based actions, plugins, and a headless config CLI. [Repo](https://github.com/roypadina/maccyplus) |
+| **maccyplus** | Maccy fork: clipboard manager with rule-based actions, plugins, a headless config CLI, and an agent clipboard API (labelled values from AI sessions). [Repo](https://github.com/roypadina/maccyplus) |
 | **meetalert** | Unmissable meeting alerts: desktop popup, ntfy phone push, urgent escalation. [Repo](https://github.com/roypadina/MeetAlert) |
 | **smarthiddenbar** | macOS 27 menu bar manager: one click hides items, per-display click modes, always-hidden apps, icon bar (resizable icons, hover names) + Apps list, use hidden items' menus without unhiding. [Repo](https://github.com/roypadina/SmartHiddenBar) |
 | **vaultbar** | Menu-bar app: lock and unlock encrypted disk-image vaults with a password popup, auto-lock on sleep, screen lock and idle. [Repo](https://github.com/roypadina/VaultBar) |
