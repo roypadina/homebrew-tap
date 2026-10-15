@@ -1,6 +1,6 @@
 cask "agents-monitor" do
-  version "1.4.7"
-  sha256 "9803e5d5b6ef202649e18b605d7f35a2dc0b6672d820dc615fb96db5f4f8dde5"
+  version "1.5.0"
+  sha256 "471182911e62cb3b2785b3434c814a02e38b87220c05130c496a33906bdf4d31"
 
   url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"
@@ -12,6 +12,7 @@ cask "agents-monitor" do
   app "AgentsMonitor.app"
 
   zap trash: [
+    "~/Library/Application Support/AgentsMonitor",
     "~/Library/Preferences/com.roy.agentsmonitor.plist",
     "~/Library/Preferences/com.roy.claudemonitor.plist",
   ]
