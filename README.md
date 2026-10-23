@@ -32,4 +32,4 @@ brew install roypadina/tap/claude-jam
 
 | Formula | Description |
 |---|---|
-| **claude-jam** | Share one real Claude Code session with other humans, over tmux and WebSockets. [Repo](https://github.com/roypadina/claude-jam) |
+| **claude-jam** | Share one real Claude Code session with other humans, live over WebSockets. [Repo](https://github.com/roypadina/claude-jam) |
