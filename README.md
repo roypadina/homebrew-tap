@@ -1,5 +1,6 @@
 # roypadina/homebrew-tap
 
+[![Website](https://img.shields.io/badge/website-apps.roypadina-2F62E6)](https://apps.roypadina.synology.me/)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-support-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/roypadina)
 
 One `brew tap` for all of [Roy Padina](https://github.com/roypadina)'s free, open-source Mac tools: small, focused menu-bar apps and a few Claude Code command-line tools, all MIT licensed. Screenshots, details and install notes for each live on the apps site: **[apps.roypadina.synology.me](https://apps.roypadina.synology.me)**.
@@ -54,6 +55,10 @@ brew install roypadina/tap/claude-jam
 | Formula | Description |
 |---|---|
 | **claude-jam** | Share one real Claude Code session with other humans, live over WebSockets. [Repo](https://github.com/roypadina/claude-jam) |
+
+## More Mac apps by Roy
+
+Browse every app with screenshots and install steps at **[apps.roypadina.synology.me](https://apps.roypadina.synology.me/)**.
 
 ## Support
 
