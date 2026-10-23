@@ -1,6 +1,6 @@
 cask "languard" do
-  version "1.1.6"
-  sha256 "ddfc7c30a456e2d48726328096e01f00512b5fc906ec88806b4ae813276071ae"
+  version "1.1.7"
+  sha256 "e2f19a6e0f9bff2eb110bdb9fb24bf475bb6af9ba4121d97e01d77ccd05b063e"
 
   url "https://github.com/roypadina/LanGuard/releases/download/v#{version}/LanGuard.zip"
   name "LanGuard"
@@ -15,7 +15,7 @@ cask "languard" do
 
   caveats <<~EOS
     LanGuard is ad-hoc signed (not notarized), so on first launch macOS may block it.
-    Right-click LanGuard in /Applications and choose Open, or run once:
+    Open System Settings > Privacy & Security and click Open Anyway (right-click > Open no longer works on macOS 15+), or run once:
       xattr -dr com.apple.quarantine "/Applications/LanGuard.app"
   EOS
 end
