@@ -26,7 +26,7 @@ brew install --cask roypadina/tap/languard
 | [Obsidian Vault Git Watcher](https://github.com/roypadina/ObsidianVaultGitWatcher) | Reminds you to commit and push your vaults | `brew install --cask roypadina/tap/obsidian-vault-git-watcher` | 14+ | Universal |
 | [agentctl](https://github.com/roypadina/agentctl) | Find and resume any Claude Code or Codex session from one terminal menu | `brew install --cask roypadina/tap/agentctl` | CLI, needs Node 18+ | Any |
 | [claude-jam](https://github.com/roypadina/claude-jam) | Share one real Claude Code session with other humans | `brew install roypadina/tap/claude-jam` | CLI, needs Node 22+ and tmux | Any |
-<!-- NTFYBAR-ROW: the NtfyBar session adds its row here, above this comment -->
+| [NtfyBar](https://github.com/roypadina/NtfyBar) | ntfy notifications on your Mac: popups that stay, rules, commands and sandboxed plugins | `brew install --cask roypadina/tap/ntfybar` | 14+ | Universal |
 
 ## Casks
 
@@ -37,6 +37,7 @@ brew install --cask roypadina/tap/languard
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged; optional connection protection keeps running connections alive across LAN↔Wi-Fi switches. [Repo](https://github.com/roypadina/LanGuard) |
 | **maccyplus** | Maccy fork: clipboard manager with rule-based actions, plugins, a headless config CLI, and an agent clipboard API (labelled values from AI sessions). [Repo](https://github.com/roypadina/maccyplus) |
 | **meetalert** | Unmissable meeting alerts: desktop popup, ntfy phone push, urgent escalation. [Repo](https://github.com/roypadina/MeetAlert) |
+| **ntfybar** | Menu-bar client for ntfy (ntfy.sh or self-hosted): notifications, popups, rules, shell commands and sandboxed JavaScript plugins. [Repo](https://github.com/roypadina/NtfyBar) |
 | **obsidian-vault-git-watcher** | Menu-bar app: reminds you to commit and push your Obsidian vaults (or any git repo) once you stop editing; per-vault schedules, snooze/skip, one-click commit & push, native Settings. [Repo](https://github.com/roypadina/ObsidianVaultGitWatcher) |
 | **smarthiddenbar** | macOS 27 menu bar manager: one click hides items, per-display click modes, always-hidden apps, icon bar (resizable icons, hover names) + Apps list, use hidden items' menus without unhiding. [Repo](https://github.com/roypadina/SmartHiddenBar) |
 | **vaultbar** | Menu-bar app: lock and unlock encrypted disk-image vaults with a password popup, auto-lock on sleep, screen lock and idle. [Repo](https://github.com/roypadina/VaultBar) |
