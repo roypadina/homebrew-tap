@@ -1,6 +1,6 @@
 cask "agents-monitor" do
-  version "1.5.1"
-  sha256 "de04cee958224ca86f586810e176e34d53582f2cce8ac20acc9ff6d056fb0124"
+  version "1.5.2"
+  sha256 "9a891165dd11ef4cde7135f17d821688694e457fbc3655079bbf97a516b2a798"
 
   url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"
@@ -19,7 +19,7 @@ cask "agents-monitor" do
 
   caveats <<~EOS
     Agents Monitor is ad-hoc signed (not notarized), so on first launch macOS may block it.
-    Right-click AgentsMonitor in /Applications and choose Open, or run once:
+    On macOS 15+ open it once, then click "Open Anyway" in System Settings > Privacy & Security, or run once:
       xattr -dr com.apple.quarantine "/Applications/AgentsMonitor.app"
 
     Renamed from claude-monitor. If you had that cask installed, remove the old app and
