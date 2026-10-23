@@ -1,6 +1,8 @@
 # roypadina/homebrew-tap
 
-Homebrew tap for [@roypadina](https://github.com/roypadina)'s macOS apps.
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-support-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/roypadina)
+
+One `brew tap` for all of [Roy Padina](https://github.com/roypadina)'s free, open-source Mac tools: small, focused menu-bar apps and a few Claude Code command-line tools, all MIT licensed. Screenshots, details and install notes for each live on the apps site: **[apps.roypadina.synology.me](https://apps.roypadina.synology.me)**.
 
 ## Install
 
@@ -9,6 +11,22 @@ brew install --cask roypadina/tap/languard
 ```
 
 (or `brew tap roypadina/tap` then `brew install --cask languard`)
+
+## Apps
+
+| App | What it does | Install | macOS | Arch |
+|---|---|---|---|---|
+| [LanGuard](https://github.com/roypadina/LanGuard) | Wi-Fi off when you are wired, back on when you are not | `brew install --cask roypadina/tap/languard` | 14+ | Universal |
+| [MaccyPlus](https://github.com/roypadina/maccyplus) | Maccy plus rules, hotkeys, plugins and a CLI for AI agents | `brew install --cask roypadina/tap/maccyplus` | 14+ | Universal |
+| [Agents Monitor](https://github.com/roypadina/AgentsMonitor) | Claude Code and Codex usage limits before you hit them | `brew install --cask roypadina/tap/agents-monitor` | 14+ | Apple Silicon only |
+| [MeetAlert](https://github.com/roypadina/MeetAlert) | Meeting alerts you cannot miss: a popup that stays, a phone push that escalates | `brew install --cask roypadina/tap/meetalert` | 14+ | Universal |
+| [SmartHiddenBar](https://github.com/roypadina/SmartHiddenBar) | Hide the menu bar clutter, reach it in one click | `brew install --cask roypadina/tap/smarthiddenbar` | 27+ | Apple Silicon only |
+| [Window Organizer](https://github.com/roypadina/window-organizer) | Minimize, close or quit every app and window with one shortcut | `brew install --cask roypadina/tap/window-organizer` | 14+ | Universal |
+| [VaultBar](https://github.com/roypadina/VaultBar) | Encrypted vaults, one click from the menu bar | `brew install --cask roypadina/tap/vaultbar` | 14+ | Universal |
+| [Obsidian Vault Git Watcher](https://github.com/roypadina/ObsidianVaultGitWatcher) | Reminds you to commit and push your vaults | `brew install --cask roypadina/tap/obsidian-vault-git-watcher` | 14+ | Universal |
+| [agentctl](https://github.com/roypadina/agentctl) | Find and resume any Claude Code or Codex session from one terminal menu | `brew install --cask roypadina/tap/agentctl` | CLI, needs Node 18+ | Any |
+| [claude-jam](https://github.com/roypadina/claude-jam) | Share one real Claude Code session with other humans | `brew install roypadina/tap/claude-jam` | CLI, needs Node 22+ and tmux | Any |
+<!-- NTFYBAR-ROW: the NtfyBar session adds its row here, above this comment -->
 
 ## Casks
 
@@ -33,3 +51,13 @@ brew install roypadina/tap/claude-jam
 | Formula | Description |
 |---|---|
 | **claude-jam** | Share one real Claude Code session with other humans, live over WebSockets. [Repo](https://github.com/roypadina/claude-jam) |
+
+## Support
+
+These are free and I build them in my spare time. If one saves you a click, a coffee keeps the next one coming.
+
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/roypadina)
+
+## License
+
+MIT (c) Roy Padina
