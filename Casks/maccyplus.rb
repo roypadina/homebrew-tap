@@ -1,6 +1,6 @@
 cask "maccyplus" do
-  version "2.8.0"
-  sha256 "c6ea532cd3b4ab780de49e531a4a3ebe7581c527776a41572d1187655c992b19"
+  version "2.8.1"
+  sha256 "dfc1b914f1de17de6be886e75bcd32349068c4c2664b5d7035fe5f154d491986"
 
   url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip"
   name "MaccyPlus"
@@ -18,7 +18,7 @@ cask "maccyplus" do
 
   caveats <<~EOS
     MaccyPlus is self-signed (not notarized), so on first launch macOS may block it.
-    Right-click "MaccyPlus" in /Applications and choose Open, or run once:
+    On macOS 15+ open it once, then click "Open Anyway" in System Settings > Privacy & Security, or run once:
       xattr -dr com.apple.quarantine "/Applications/MaccyPlus.app"
   EOS
 end
