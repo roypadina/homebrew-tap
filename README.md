@@ -14,7 +14,7 @@ brew install --cask roypadina/tap/languard
 
 | Cask | Description |
 |---|---|
-| **agentctl** | Menu + GUI to start or resume Claude/Codex coding-agent sessions. [Repo](https://github.com/roypadina/agentctl) |
+| **agentctl** | Terminal menu to start or resume Claude/Codex coding-agent sessions (CLI only). [Repo](https://github.com/roypadina/agentctl) |
 | **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts, with usage graphs and burn-rate warnings. [Repo](https://github.com/roypadina/AgentsMonitor) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged; optional connection protection keeps running connections alive across LAN↔Wi-Fi switches. [Repo](https://github.com/roypadina/LanGuard) |
 | **maccyplus** | Maccy fork: clipboard manager with rule-based actions, plugins, a headless config CLI, and an agent clipboard API (labelled values from AI sessions). [Repo](https://github.com/roypadina/maccyplus) |

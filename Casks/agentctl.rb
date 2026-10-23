@@ -1,25 +1,18 @@
 cask "agentctl" do
-  version "0.10.0"
-  sha256 "8081beee348b21bd4baada477215c5087045b5f34dd7dac88519df0fa8544fcd"
+  version "0.11.0"
+  sha256 "8807d7d9ac07426c528d7efd4985f34f2b55031e1f99e39ccd0c496959312bfa"
 
   url "https://github.com/roypadina/agentctl/releases/download/v#{version}/agentctl.zip"
   name "Agentctl"
-  desc "Menu + GUI to start or resume Claude/Codex coding-agent sessions"
+  desc "Terminal menu to start or resume Claude/Codex coding-agent sessions"
   homepage "https://github.com/roypadina/agentctl"
 
   depends_on formula: "node"
-  depends_on macos: :monterey
 
-  app "Agentctl.app"
-  binary "#{appdir}/Agentctl.app/Contents/Resources/cli/bin/agentctl"
+  binary "agentctl/bin/agentctl"
 
-  zap trash: "~/.config/agentctl"
-
-  caveats <<~EOS
-    Agentctl is ad-hoc signed (not notarized), so on first launch macOS may block it.
-    Right-click Agentctl in /Applications and choose Open, or run once:
-      xattr -dr com.apple.quarantine "/Applications/Agentctl.app"
-
-    The agentctl command runs on Node (installed as a dependency).
-  EOS
+  zap trash: [
+    "~/.config/agentctl",
+    "~/Library/Preferences/com.roypadina.agentctl.plist",
+  ]
 end
