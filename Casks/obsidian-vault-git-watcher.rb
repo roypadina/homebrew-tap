@@ -1,6 +1,6 @@
 cask "obsidian-vault-git-watcher" do
-  version "0.2.3"
-  sha256 "6e111740e668ecff38bda1b408bc3cfe84db592ab93376e4221a128fd3f50d99"
+  version "0.2.4"
+  sha256 "b73e64af2688d5423507cc4116caffd2ed92d7f9594a4107e76c45ef7ed8499b"
 
   url "https://github.com/roypadina/ObsidianVaultGitWatcher/releases/download/v#{version}/ObsidianVaultGitWatcher.zip"
   name "Obsidian Vault Git Watcher"
