@@ -1,6 +1,6 @@
 cask "meetalert" do
-  version "1.5.8"
-  sha256 "c9b59fb93237bf61ea6bc9130960cc880ed5cdc48af907eff8edbed586f73240"
+  version "1.6.0"
+  sha256 "723b0b8670712024762e3fbf799d40e42c667302fbbe3afaae6490536b56db21"
 
   url "https://github.com/roypadina/MeetAlert/releases/download/v#{version}/MeetAlert.zip"
   name "MeetAlert"
