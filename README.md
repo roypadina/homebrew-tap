@@ -36,7 +36,7 @@ brew install --cask roypadina/tap/languard
 |---|---|
 | **agentctl** | Terminal menu to start or resume Claude/Codex coding-agent sessions (CLI only). [Repo](https://github.com/roypadina/agentctl) |
 | **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts, with usage graphs and burn-rate warnings. [Repo](https://github.com/roypadina/AgentsMonitor) |
-| **agents-session-hopper** | BETA. Profiles for Claude Code: your own accounts side by side, confirmed hand-off of a conversation to another when one runs low; menu-bar app + `sessionhopper` CLI. [Repo](https://github.com/roypadina/AgentsSessionHopper) |
+| **agents-session-hopper** | BETA. Profiles for Claude Code: your own accounts side by side, confirmed hand-off of a conversation to another when one runs low; a setup window for the whole multi-account setup; menu-bar app + `sessionhopper` CLI. [Repo](https://github.com/roypadina/AgentsSessionHopper) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged; optional connection protection keeps running connections alive across LAN↔Wi-Fi switches. [Repo](https://github.com/roypadina/LanGuard) |
 | **maccyplus** | Maccy fork: clipboard manager with rule-based actions (incl. send to ntfy), plugins, a headless config CLI, and an agent clipboard API (labelled values from AI sessions). [Repo](https://github.com/roypadina/maccyplus) |
 | **meetalert** | Unmissable meeting alerts: desktop popup, ntfy phone push, urgent escalation. [Repo](https://github.com/roypadina/MeetAlert) |
