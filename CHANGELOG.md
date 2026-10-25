@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-25
 
 ### Changed
+- `agents-session-hopper` 0.1.8
 - `ntfybar` 1.4.0
 - `agents-monitor` 1.6.0
 - `meetalert` 1.6.0
