@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-10-26
+
+### Changed
+- `agentctl` 0.12.0
+
 ## 2026-10-25
 
 ### Changed
