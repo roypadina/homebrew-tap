@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-10-27
+
+### Changed
+- `agents-session-hopper` 0.2.1
+
 ## 2026-10-26
 
 ### Changed
