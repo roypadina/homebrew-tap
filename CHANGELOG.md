@@ -10,6 +10,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ### Changed
 - `agents-session-hopper` 0.2.1
+- `agents-monitor` 1.6.1
+- `meetalert` 1.6.1
 
 ## 2026-10-26
 
