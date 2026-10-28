@@ -1,10 +1,10 @@
 cask "agents-session-hopper" do
-  version "0.2.1"
-  sha256 "b8402a686eea73bf7d1a87b10d0a472ceac683fa168804f4ef952b8968d5c296"
+  version "1.0.0"
+  sha256 "bf8be52a924dc0b4b82b38556713258c5547d645211568fea4d477f426cf6eba"
 
   url "https://github.com/roypadina/AgentsSessionHopper/releases/download/v#{version}/AgentsSessionHopper.zip"
   name "AgentsSessionHopper"
-  desc "Claude Code profiles: move a conversation to another of your accounts (beta)"
+  desc "Claude Code profiles: move a conversation to another of your accounts"
   homepage "https://github.com/roypadina/AgentsSessionHopper"
 
   depends_on macos: :sonoma
@@ -18,8 +18,6 @@ cask "agents-session-hopper" do
   ]
 
   caveats <<~EOS
-    BETA: not fully tested; real account hand-offs are new. Please report issues.
-
     AgentsSessionHopper is self-signed (not notarized), so on first launch macOS may block it
     and the bundled `sessionhopper` command. Open System Settings > Privacy & Security and
     click Open Anyway, or run once:

@@ -10,6 +10,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ### Changed
 - `agentctl` 0.12.1
+- `agents-session-hopper` 1.0.0 (out of BETA)
 
 ## 2026-10-27
 
