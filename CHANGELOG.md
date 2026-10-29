@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-10-30
+
+### Changed
+- `pullping` 0.1.1 (Sign in with GitHub)
+
 ## 2026-10-29
 
 ### Added
