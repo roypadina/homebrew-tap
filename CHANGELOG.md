@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-10-29
+
+### Changed
+- `smarthiddenbar` 1.3.3
+
 ## 2026-10-28
 
 ### Changed
