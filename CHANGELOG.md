@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `pullping` 0.1.2 (account names, menu-bar count settings)
 - `pullping` 0.1.1 (Sign in with GitHub)
 
 ## 2026-10-29
