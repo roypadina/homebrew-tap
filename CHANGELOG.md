@@ -8,6 +8,9 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## 2026-10-29
 
+### Added
+- `pullping` 0.1.0 (new: GitHub pull request tracker for the menu bar)
+
 ### Changed
 - `agentctl` 0.13.0 (ask Claude to find a session: `S` / `agentctl -p`)
 - `agents-session-hopper` 1.1.0 (session summary when a session ends)

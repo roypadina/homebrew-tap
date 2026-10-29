@@ -29,6 +29,7 @@ brew install --cask roypadina/tap/languard
 | [agentctl](https://github.com/roypadina/agentctl) | Find and resume any Claude Code or Codex session from one terminal menu — or ask Claude which one you mean | `brew install --cask roypadina/tap/agentctl` | CLI, needs Node 18+ | Any |
 | [claude-jam](https://github.com/roypadina/claude-jam) | Share one real Claude Code session with other humans | `brew install roypadina/tap/claude-jam` | CLI, needs Node 22+ and tmux | Any |
 | [NtfyBar](https://github.com/roypadina/NtfyBar) | ntfy notifications on your Mac: popups that stay, rules, commands and sandboxed plugins | `brew install --cask roypadina/tap/ntfybar` | 14+ | Universal |
+| [PullPing](https://github.com/roypadina/PullPing) | Know when your pull requests need you, across every GitHub account | `brew install --cask roypadina/tap/pullping` | 14+ | Universal |
 
 ## Casks
 
@@ -42,6 +43,7 @@ brew install --cask roypadina/tap/languard
 | **meetalert** | Unmissable meeting alerts: desktop popup, ntfy phone push, urgent escalation. [Repo](https://github.com/roypadina/MeetAlert) |
 | **ntfybar** | Menu-bar client for ntfy (ntfy.sh or self-hosted): notifications, popups, attachments (copy, download), publish (send the clipboard, text or files), rules, shell commands and sandboxed JavaScript plugins. [Repo](https://github.com/roypadina/NtfyBar) |
 | **obsidian-vault-git-watcher** | Menu-bar app: reminds you to commit and push your Obsidian vaults (or any git repo) once you stop editing; per-vault schedules, snooze/skip, one-click commit & push, native Settings. [Repo](https://github.com/roypadina/ObsidianVaultGitWatcher) |
+| **pullping** | Menu-bar tracker for every GitHub pull request you are involved in, across accounts: unified or per-account inbox, review reminders, notification panels, optional ntfy phone pushes. [Repo](https://github.com/roypadina/PullPing) |
 | **smarthiddenbar** | macOS 27 menu bar manager: one click hides items, per-display click modes, always-hidden apps, icon bar (resizable icons, hover names) + Apps list, use hidden items' menus without unhiding. [Repo](https://github.com/roypadina/SmartHiddenBar) |
 | **vaultbar** | Menu-bar app: lock and unlock encrypted disk-image vaults with a password popup, auto-lock on sleep, screen lock and idle. [Repo](https://github.com/roypadina/VaultBar) |
 | **window-organizer** | Menu-bar app: minimize, close, quit or force quit all apps and windows at once with recordable global shortcuts and per-app rules. [Repo](https://github.com/roypadina/window-organizer) |
