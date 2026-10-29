@@ -26,7 +26,7 @@ brew install --cask roypadina/tap/languard
 | [Window Organizer](https://github.com/roypadina/window-organizer) | Minimize, close or quit every app and window with one shortcut | `brew install --cask roypadina/tap/window-organizer` | 14+ | Universal |
 | [VaultBar](https://github.com/roypadina/VaultBar) | Encrypted vaults, one click from the menu bar | `brew install --cask roypadina/tap/vaultbar` | 14+ | Universal |
 | [Obsidian Vault Git Watcher](https://github.com/roypadina/ObsidianVaultGitWatcher) | Reminds you to commit and push your vaults | `brew install --cask roypadina/tap/obsidian-vault-git-watcher` | 14+ | Universal |
-| [agentctl](https://github.com/roypadina/agentctl) | Find and resume any Claude Code or Codex session from one terminal menu | `brew install --cask roypadina/tap/agentctl` | CLI, needs Node 18+ | Any |
+| [agentctl](https://github.com/roypadina/agentctl) | Find and resume any Claude Code or Codex session from one terminal menu — or ask Claude which one you mean | `brew install --cask roypadina/tap/agentctl` | CLI, needs Node 18+ | Any |
 | [claude-jam](https://github.com/roypadina/claude-jam) | Share one real Claude Code session with other humans | `brew install roypadina/tap/claude-jam` | CLI, needs Node 22+ and tmux | Any |
 | [NtfyBar](https://github.com/roypadina/NtfyBar) | ntfy notifications on your Mac: popups that stay, rules, commands and sandboxed plugins | `brew install --cask roypadina/tap/ntfybar` | 14+ | Universal |
 
