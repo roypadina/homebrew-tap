@@ -9,7 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-29
 
 ### Changed
-- `smarthiddenbar` 1.3.3
+- `smarthiddenbar` 1.3.4
 
 ## 2026-10-28
 
