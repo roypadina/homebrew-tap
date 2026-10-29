@@ -18,12 +18,13 @@ cask "smarthiddenbar" do
   ]
 
   caveats <<~EOS
-    SmartHiddenBar is ad-hoc signed (not notarized), so on first launch macOS may block it.
-    Right-click SmartHiddenBar in /Applications and choose Open, or run once:
+    SmartHiddenBar is self-signed (not notarized), so on first launch macOS may block it.
+    Open System Settings > Privacy & Security and click Open Anyway (right-click > Open no longer works on macOS 15+), or run once:
       xattr -dr com.apple.quarantine "/Applications/SmartHiddenBar.app"
 
-    It must run from /Applications, and needs Accessibility permission. Re-grant
-    Accessibility after every update (toggle it off and on in System Settings, or run
+    It must run from /Applications, and needs Accessibility permission. Since 1.3.2 the
+    grant survives updates. Upgrading from an older version, re-grant it once (toggle it
+    off and on in System Settings, or run
     `tccutil reset Accessibility com.roypadina.SmartHiddenBar`).
   EOS
 end
