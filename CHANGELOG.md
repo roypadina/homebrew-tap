@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-29
 
 ### Changed
+- `agents-session-hopper` 1.1.0 (session summary when a session ends)
 - `agents-session-hopper` 1.0.1
 - `meetalert` 1.7.0
 - `smarthiddenbar` 1.3.4
