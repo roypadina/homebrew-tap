@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `pullping` 0.4.0 (issues and label changes tracked)
 - `pullping` 0.3.0 (sort by what needs you, Done group)
 - `smarthiddenbar` 1.4.0 (welcome window, Mac design polish)
 - `languard` 1.2.0 (welcome window, Mac design polish)

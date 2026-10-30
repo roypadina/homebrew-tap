@@ -1,10 +1,10 @@
 cask "pullping" do
-  version "0.3.0"
-  sha256 "be270302b3f123de856ffe63d84262c0c94e232756733d20fbfaf034553de6c6"
+  version "0.4.0"
+  sha256 "03b534d23edc0b4abc90fbc54a1902896ec873875ee365a7e3ee3fe9b01d469a"
 
   url "https://github.com/roypadina/PullPing/releases/download/v#{version}/PullPing.zip"
   name "PullPing"
-  desc "Menu-bar tracker and notifier for GitHub pull requests across accounts"
+  desc "Menu-bar tracker and notifier for GitHub pull requests and issues"
   homepage "https://github.com/roypadina/PullPing"
 
   depends_on macos: :sonoma
