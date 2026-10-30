@@ -9,6 +9,17 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `smarthiddenbar` 1.4.0 (welcome window, Mac design polish)
+- `languard` 1.2.0 (welcome window, Mac design polish)
+- `window-organizer` 0.3.0 (welcome window, Mac design polish)
+- `agents-session-hopper` 1.2.0 (welcome window, Mac design polish)
+- `obsidian-vault-git-watcher` 0.3.0 (welcome window, Mac design polish)
+- `agents-monitor` 1.7.0 (welcome window, Mac design polish)
+- `ntfybar` 1.5.0 (welcome window, Mac design polish)
+- `vaultbar` 0.3.0 (welcome window, Mac design polish)
+- `meetalert` 1.8.0 (welcome window, Mac design polish)
+- `pullping` 0.2.0 (welcome window, Mac design polish)
+- `maccyplus` 2.10.0 (welcome window, Mac design polish)
 - `pullping` 0.1.2 (account names, menu-bar count settings)
 - `pullping` 0.1.1 (Sign in with GitHub)
 
