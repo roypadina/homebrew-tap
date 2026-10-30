@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `smarthiddenbar` 1.4.1 (apps right of the icon no longer hidden after a layout shift)
 - `pullping` 0.4.0 (issues and label changes tracked)
 - `pullping` 0.3.0 (sort by what needs you, Done group)
 - `smarthiddenbar` 1.4.0 (welcome window, Mac design polish)
