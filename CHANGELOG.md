@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `languard` 1.2.1 (connection protection re-applied after a brief link drop)
 - `agents-monitor` 1.7.2 (plain-word refresh errors, last known numbers kept after a relaunch)
 - `agents-monitor` 1.7.1 (Codex alerts follow your own thresholds)
 - `smarthiddenbar` 1.5.0 (Show or Hide apps with icons on both sides of the icon)
