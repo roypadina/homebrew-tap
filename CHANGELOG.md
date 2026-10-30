@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-10-30
 
 ### Changed
+- `agents-monitor` 1.7.1 (Codex alerts follow your own thresholds)
 - `smarthiddenbar` 1.5.0 (Show or Hide apps with icons on both sides of the icon)
 - `smarthiddenbar` 1.4.1 (apps right of the icon no longer hidden after a layout shift)
 - `pullping` 0.4.0 (issues and label changes tracked)
