@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-10-31
+
+### Changed
+- `maccyplus` 2.10.1 (Settings no longer quits on a rule with a password field; default "Value kind" condition matches URLs)
+
 ## 2026-10-30
 
 ### Changed
