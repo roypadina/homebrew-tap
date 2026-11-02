@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-02
+
+### Changed
+- `pullping` 0.5.0 (agent automations, Handle with Agent, `pullping` command, activity log; sign-in no longer expires daily)
+
 ## 2026-10-31
 
 ### Changed

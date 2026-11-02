@@ -1,15 +1,16 @@
 cask "pullping" do
-  version "0.4.0"
-  sha256 "03b534d23edc0b4abc90fbc54a1902896ec873875ee365a7e3ee3fe9b01d469a"
+  version "0.5.0"
+  sha256 "b354d1d2c0a77160d363e32b4f45b320d76da8bd4eb76e1b049b3dd9307af055"
 
   url "https://github.com/roypadina/PullPing/releases/download/v#{version}/PullPing.zip"
   name "PullPing"
-  desc "Menu-bar tracker and notifier for GitHub pull requests and issues"
+  desc "Menu-bar notifier for GitHub pull requests and issues, with agent automations"
   homepage "https://github.com/roypadina/PullPing"
 
   depends_on macos: :sonoma
 
   app "PullPing.app"
+  binary "#{appdir}/PullPing.app/Contents/MacOS/PullPing", target: "pullping"
 
   zap trash: [
     "~/Library/Application Support/PullPing",
