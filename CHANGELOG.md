@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-03
 
 ### Changed
+- `agents-session-hopper` 1.4.1 (`doctor` env-token warning fixed)
 - `agents-session-hopper` 1.4.0 (per-profile Claude setup-tokens on servers, `config on-switch` hook, Linux fixes)
 - `agents-session-hopper` 1.3.0 (OpenRouter profile as a pay-per-use last fallback, `sessionhopper run` for bots, Linux CLI on the release page)
 - `agents-session-hopper` 1.2.1 (`doctor` no longer reports linked todos/file-history as not shared)
