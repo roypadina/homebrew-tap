@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-03
 
 ### Changed
+- `agents-session-hopper` 1.6.0 (Settings: OpenRouter keys, priorities)
 - `agents-session-hopper` 1.5.0 (VS Code side panel supervised, profile priorities)
 - `agents-session-hopper` 1.4.2 (`doctor` OpenRouter wording)
 - `agents-session-hopper` 1.4.1 (`doctor` env-token warning fixed)
