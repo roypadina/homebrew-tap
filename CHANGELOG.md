@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-03
+
+### Changed
+- `agents-session-hopper` 1.2.1 (`doctor` no longer reports linked todos/file-history as not shared)
+
 ## 2026-11-02
 
 ### Changed
