@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-04
+
+### Changed
+- `agents-monitor` 1.8.0 (compact popover, OpenRouter keys and spend alerts)
+
 ## 2026-11-03
 
 ### Changed

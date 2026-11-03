@@ -1,10 +1,10 @@
 cask "agents-monitor" do
-  version "1.7.2"
-  sha256 "4e9b6462a2d5213fdfd8655334b8406b937d4f30a2352d4de80d9c8713e39d3f"
+  version "1.8.0"
+  sha256 "1bd03207c7f9d3f4b2e95127ded13c7f46ea4b36dbf44e5179a81641be2df542"
 
   url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"
-  desc "Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts"
+  desc "Menu-bar monitor for Claude Code, Codex and OpenRouter usage across accounts"
   homepage "https://github.com/roypadina/AgentsMonitor"
 
   depends_on macos: :sonoma

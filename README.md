@@ -19,7 +19,7 @@ brew install --cask roypadina/tap/languard
 |---|---|---|---|---|
 | [LanGuard](https://github.com/roypadina/LanGuard) | Wi-Fi off when you are wired, back on when you are not | `brew install --cask roypadina/tap/languard` | 14+ | Universal |
 | [MaccyPlus](https://github.com/roypadina/maccyplus) | Maccy plus rules, hotkeys, plugins and a CLI for AI agents | `brew install --cask roypadina/tap/maccyplus` | 14+ | Universal |
-| [Agents Monitor](https://github.com/roypadina/AgentsMonitor) | Claude Code and Codex usage limits before you hit them | `brew install --cask roypadina/tap/agents-monitor` | 14+ | Apple Silicon only |
+| [Agents Monitor](https://github.com/roypadina/AgentsMonitor) | Claude Code, Codex and OpenRouter usage before you hit a limit | `brew install --cask roypadina/tap/agents-monitor` | 14+ | Apple Silicon only |
 | [AgentsSessionHopper](https://github.com/roypadina/AgentsSessionHopper) | Run your Claude accounts side by side; continue a conversation on another when one runs low | `brew install --cask roypadina/tap/agents-session-hopper` | 14+ | Universal |
 | [MeetAlert](https://github.com/roypadina/MeetAlert) | Meeting alerts you cannot miss: a popup that stays, a phone push that escalates | `brew install --cask roypadina/tap/meetalert` | 14+ | Universal |
 | [SmartHiddenBar](https://github.com/roypadina/SmartHiddenBar) | Hide the menu bar clutter, reach it in one click | `brew install --cask roypadina/tap/smarthiddenbar` | 27+ | Apple Silicon only |
@@ -36,7 +36,7 @@ brew install --cask roypadina/tap/languard
 | Cask | Description |
 |---|---|
 | **agentctl** | Terminal menu to start or resume Claude/Codex coding-agent sessions (CLI only). [Repo](https://github.com/roypadina/agentctl) |
-| **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts, with usage graphs and burn-rate warnings. [Repo](https://github.com/roypadina/AgentsMonitor) |
+| **agents-monitor** | Menu-bar monitor for Claude Code and Codex usage limits across multiple accounts, plus OpenRouter keys and spend alerts, with usage graphs and burn-rate warnings. [Repo](https://github.com/roypadina/AgentsMonitor) |
 | **agents-session-hopper** | Profiles for Claude Code: your own accounts side by side, confirmed hand-off of a conversation to another when one runs low, or a wait for the reset when all are full; a setup window for the whole multi-account setup; profile priorities and an optional OpenRouter profile as the last, pay-per-use fallback; the VS Code side panel too; menu-bar app + `sessionhopper` CLI (also for Linux, from the release page). [Repo](https://github.com/roypadina/AgentsSessionHopper) |
 | **languard** | Menu-bar app: turns Wi-Fi off on wired LAN, back on when unplugged; optional connection protection keeps running connections alive across LAN↔Wi-Fi switches. [Repo](https://github.com/roypadina/LanGuard) |
 | **maccyplus** | Maccy fork: clipboard manager with rule-based actions (incl. send to ntfy), plugins, a headless config CLI, and an agent clipboard API (labelled values from AI sessions). [Repo](https://github.com/roypadina/maccyplus) |
