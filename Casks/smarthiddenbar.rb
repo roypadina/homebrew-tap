@@ -1,12 +1,13 @@
 cask "smarthiddenbar" do
-  version "1.5.0"
-  sha256 "733b5c658436426193586434450bb2c552d6913296a8569c1f99bd7a109c989c"
+  version "1.6.0"
+  sha256 "a0f22ac62322d5d9a78f379779defecaa4b617d758f85f6bc180ffaf735c4a31"
 
   url "https://github.com/roypadina/SmartHiddenBar/releases/download/v#{version}/SmartHiddenBar.zip"
   name "SmartHiddenBar"
   desc "Menu-bar app that hides menu bar items and mirrors their menus"
   homepage "https://github.com/roypadina/SmartHiddenBar"
 
+  auto_updates true
   depends_on macos: :golden_gate
 
   app "SmartHiddenBar.app"
