@@ -1,12 +1,13 @@
 cask "meetalert" do
-  version "1.8.0"
-  sha256 "fe397e5f1ffa2f59c0fa61d492e5584dad654a647cee9f57abe3a422e4aabcdc"
+  version "1.9.0"
+  sha256 "9591ba4b4464beb12d2584ece363a702e83d23f75805485ae4c3c62a74affe23"
 
   url "https://github.com/roypadina/MeetAlert/releases/download/v#{version}/MeetAlert.zip"
   name "MeetAlert"
   desc "Unmissable meeting alerts — desktop popup, ntfy phone push, urgent escalation"
   homepage "https://github.com/roypadina/MeetAlert"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "MeetAlert.app"

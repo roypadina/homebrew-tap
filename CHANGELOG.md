@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `meetalert` 1.9.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `smarthiddenbar` 1.6.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `ntfybar` 1.6.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `window-organizer` 0.4.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
