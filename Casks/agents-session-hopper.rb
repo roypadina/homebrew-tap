@@ -1,6 +1,6 @@
 cask "agents-session-hopper" do
-  version "1.8.0"
-  sha256 "86989aa84960c2e890b7a6895628b6a1b9c4b367d9c039679e676f89e44582cb"
+  version "1.8.1"
+  sha256 "e137c9bb1d8d1b938d1a09e6ab2065366b7430919ed62bf01ae3f1067296805d"
 
   url "https://github.com/roypadina/AgentsSessionHopper/releases/download/v#{version}/AgentsSessionHopper.zip"
   name "AgentsSessionHopper"
