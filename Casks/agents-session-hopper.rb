@@ -1,12 +1,13 @@
 cask "agents-session-hopper" do
-  version "1.7.0"
-  sha256 "3e1d18e8a99e8e6a64f46a02b9ffb64051d7fb0da2662fc0cddaf2432e328442"
+  version "1.8.0"
+  sha256 "86989aa84960c2e890b7a6895628b6a1b9c4b367d9c039679e676f89e44582cb"
 
   url "https://github.com/roypadina/AgentsSessionHopper/releases/download/v#{version}/AgentsSessionHopper.zip"
   name "AgentsSessionHopper"
   desc "Claude Code profiles: move a conversation to another of your accounts"
   homepage "https://github.com/roypadina/AgentsSessionHopper"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "AgentsSessionHopper.app"

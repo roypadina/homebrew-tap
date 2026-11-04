@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `agents-session-hopper` 1.8.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `languard` 1.3.0 (in-app updates via Sparkle; cask `auto_updates true`)
 - `agents-session-hopper` 1.7.0 (compact menu-bar window with the switch time at the current pace; global shortcut)
 - `maccyplus` 2.10.3 (daily update check without Settings open)
