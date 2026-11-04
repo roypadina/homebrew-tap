@@ -1,6 +1,6 @@
 cask "agents-monitor" do
-  version "1.9.1"
-  sha256 "c35960ceea755460c201ce6c4b0fafa8c28598be3a0045a94a0eddbebb8073f1"
+  version "1.9.2"
+  sha256 "621f7b668fde4f1702593373acf562383746b427747a5d383d10c6a1c60bb5a6"
 
   url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"

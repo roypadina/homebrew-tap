@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `agents-monitor` 1.9.2 (right-click menu with Check for Updates)
 - `languard` 1.3.2 (Check for Updates in the menu)
 - `meetalert` 1.9.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `smarthiddenbar` 1.6.1 (a reopened menu bar app's icon comes back without restarting SmartHiddenBar)
