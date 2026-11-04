@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `pullping` 0.6.1 (Check for Updates in the right-click menu)
 - `maccyplus` 2.10.4 (right-click menu with Check for Updates)
 - `agents-monitor` 1.9.2 (right-click menu with Check for Updates)
 - `languard` 1.3.2 (Check for Updates in the menu)
