@@ -1,12 +1,13 @@
 cask "languard" do
-  version "1.2.1"
-  sha256 "5897485b5fe430a904272dc746335faa0125ce026527e46ed3fec643094f8f06"
+  version "1.3.0"
+  sha256 "c8760859fec16723bfb8eac218f3b81a2ee59302d38d0d7b93f69effd0e3e818"
 
   url "https://github.com/roypadina/LanGuard/releases/download/v#{version}/LanGuard.zip"
   name "LanGuard"
   desc "Menu-bar app that turns Wi-Fi off on wired LAN and back on when unplugged"
   homepage "https://github.com/roypadina/LanGuard"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "LanGuard.app"
