@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `window-organizer` 0.4.1 (Check for Updates in the menu)
 - `ntfybar` 1.6.1 (Check for Updates in the menu)
 - `pullping` 0.6.1 (Check for Updates in the right-click menu)
 - `maccyplus` 2.10.4 (right-click menu with Check for Updates)
