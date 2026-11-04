@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `meetalert` 1.9.1 (Check for Updates in the menu)
 - `window-organizer` 0.4.1 (Check for Updates in the menu)
 - `ntfybar` 1.6.1 (Check for Updates in the menu)
 - `pullping` 0.6.1 (Check for Updates in the right-click menu)
