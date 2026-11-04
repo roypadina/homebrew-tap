@@ -1,12 +1,13 @@
 cask "maccyplus" do
-  version "2.10.1"
-  sha256 "816fa5e20d90f035ba789a2a5c8f8764e27df4e33bd2334097cb68741a40300f"
+  version "2.10.2"
+  sha256 "5c1aab8c9f37113779bf8f2ec23f7ec04ef10a2758b18be4a869bdb5eab43583"
 
   url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip"
   name "MaccyPlus"
   desc "Clipboard manager with rule-based actions, plugins, and an agent-friendly CLI"
   homepage "https://github.com/roypadina/maccyplus"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "MaccyPlus.app"

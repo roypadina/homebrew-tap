@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `maccyplus` 2.10.2 (EdDSA-signed in-app updates; cask `auto_updates true`)
 - `agents-monitor` 1.8.0 (compact popover, OpenRouter keys and spend alerts)
 
 ## 2026-11-03
