@@ -1,12 +1,13 @@
 cask "pullping" do
-  version "0.5.0"
-  sha256 "b354d1d2c0a77160d363e32b4f45b320d76da8bd4eb76e1b049b3dd9307af055"
+  version "0.6.0"
+  sha256 "4c7025667f467d3465f1743fb3b4ed40c9ee811dbec6081acbc9a6034f7f98ad"
 
   url "https://github.com/roypadina/PullPing/releases/download/v#{version}/PullPing.zip"
   name "PullPing"
   desc "Menu-bar notifier for GitHub pull requests and issues, with agent automations"
   homepage "https://github.com/roypadina/PullPing"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "PullPing.app"
