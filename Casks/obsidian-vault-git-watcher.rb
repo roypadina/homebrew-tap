@@ -1,12 +1,13 @@
 cask "obsidian-vault-git-watcher" do
-  version "0.3.0"
-  sha256 "f98b07175045d9b8ce33a40874c12592ba567681d4a91f445f850c136b9916e3"
+  version "0.4.0"
+  sha256 "7de09a242ac313385939f3c6d67c47f9be8588e6618ea223bffae0bb0a5085fb"
 
   url "https://github.com/roypadina/ObsidianVaultGitWatcher/releases/download/v#{version}/ObsidianVaultGitWatcher.zip"
   name "Obsidian Vault Git Watcher"
   desc "Menu bar app that reminds you to commit and push your Obsidian vaults"
   homepage "https://github.com/roypadina/ObsidianVaultGitWatcher"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "ObsidianVaultGitWatcher.app"

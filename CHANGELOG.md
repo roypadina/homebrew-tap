@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `obsidian-vault-git-watcher` 0.4.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `meetalert` 1.9.1 (Check for Updates in the menu)
 - `window-organizer` 0.4.1 (Check for Updates in the menu)
 - `ntfybar` 1.6.1 (Check for Updates in the menu)
