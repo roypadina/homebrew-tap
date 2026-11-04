@@ -1,12 +1,13 @@
 cask "ntfybar" do
-  version "1.5.0"
-  sha256 "9bba597c1d70425d6d2e93226ba9b0fff3956e3373c3739488c99b0e999d384a"
+  version "1.6.0"
+  sha256 "d6184af6d7350ec81cc856df28b0de2476e809a16f5153897f1d1ea7f3aa72ae"
 
   url "https://github.com/roypadina/NtfyBar/releases/download/v#{version}/NtfyBar.zip"
   name "NtfyBar"
   desc "Menu bar client for ntfy with popups, rules, commands and sandboxed plugins"
   homepage "https://github.com/roypadina/NtfyBar"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "NtfyBar.app"

@@ -1,12 +1,13 @@
 cask "window-organizer" do
-  version "0.3.0"
-  sha256 "32ba50577476aba8574844ed877627781e4238b0c5df8bba2849c5f8a3b6a25b"
+  version "0.4.0"
+  sha256 "cfccfd6c16919c47b2d9e7f7844a00d45c0bba5c6ee8b99603b0e7673262c43c"
 
   url "https://github.com/roypadina/window-organizer/releases/download/v#{version}/Window-Organizer.zip"
   name "Window Organizer"
   desc "Menu bar app to minimize, close, quit or force quit all apps with shortcuts"
   homepage "https://github.com/roypadina/window-organizer"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Window Organizer.app"

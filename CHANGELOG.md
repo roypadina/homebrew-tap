@@ -9,6 +9,8 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `ntfybar` 1.6.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
+- `window-organizer` 0.4.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
 - `pullping` 0.6.0 (in-app updates via Sparkle; cask `auto_updates true`)
 - `languard` 1.3.1 (default Switch to Wi-Fi shortcut ⌃⌥⇧⌘L)
 - `agents-session-hopper` 1.8.0 (in-app updates via Sparkle, asks first; cask `auto_updates true`)
