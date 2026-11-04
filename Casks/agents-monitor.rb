@@ -1,12 +1,13 @@
 cask "agents-monitor" do
-  version "1.8.0"
-  sha256 "1bd03207c7f9d3f4b2e95127ded13c7f46ea4b36dbf44e5179a81641be2df542"
+  version "1.9.0"
+  sha256 "b4430c1839d8ba906c3ff43f7418eaca44b5caa1b780cc87a217b37fa07b8cd6"
 
   url "https://github.com/roypadina/AgentsMonitor/releases/download/v#{version}/AgentsMonitor.zip"
   name "Agents Monitor"
   desc "Menu-bar monitor for Claude Code, Codex and OpenRouter usage across accounts"
   homepage "https://github.com/roypadina/AgentsMonitor"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "AgentsMonitor.app"
@@ -21,6 +22,8 @@ cask "agents-monitor" do
     Agents Monitor is ad-hoc signed (not notarized), so on first launch macOS may block it.
     On macOS 15+ open it once, then click "Open Anyway" in System Settings > Privacy & Security, or run once:
       xattr -dr com.apple.quarantine "/Applications/AgentsMonitor.app"
+
+    From 1.9.0 the app updates itself (Settings > About > Check for Updates…).
 
     Renamed from claude-monitor. If you had that cask installed, remove the old app and
     its stale login item:
