@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-04
 
 ### Changed
+- `agents-session-hopper` 1.7.0 (compact menu-bar window with the switch time at the current pace; global shortcut)
 - `agents-monitor` 1.9.1 (Check for Updates in the About window)
 - `agents-monitor` 1.9.0 (in-app updates via Sparkle; cask `auto_updates true`)
 - `maccyplus` 2.10.2 (EdDSA-signed in-app updates; cask `auto_updates true`)
