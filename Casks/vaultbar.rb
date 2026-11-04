@@ -1,12 +1,13 @@
 cask "vaultbar" do
-  version "0.3.0"
-  sha256 "5a6ffd468dbd5f99a47cae2f0142fa221170731b943b7acc3448b24a43da9948"
+  version "0.4.0"
+  sha256 "56e6dc38e3f870eddf671e35fc74b121e5df5dcab7ccb4fd46caffe5af8db2d4"
 
   url "https://github.com/roypadina/VaultBar/releases/download/v#{version}/VaultBar.zip"
   name "VaultBar"
   desc "Menu bar app to lock and unlock encrypted disk-image vaults"
   homepage "https://github.com/roypadina/VaultBar"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "VaultBar.app"
