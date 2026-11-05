@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-05
+
+### Changed
+- `agentctl` 0.14.0 (`agentctl hook user-prompt-submit`: asks for a `/rename` until the session has a human name)
+
 ## 2026-11-04
 
 ### Changed
