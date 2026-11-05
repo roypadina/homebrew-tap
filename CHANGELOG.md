@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-06
+
+### Changed
+- `agents-session-hopper` 1.9.1 (task lists move with a session: shares `tasks/`; Linux CLI runs on glibc 2.35+)
+
 ## 2026-11-05
 
 ### Changed
