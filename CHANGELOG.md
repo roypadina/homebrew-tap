@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-05
 
 ### Changed
+- `agents-session-hopper` 1.9.0 (messaging across accounts: `profiles share` links Claude Code's session list; `switch --cancel`)
 - `agentctl` 0.14.0 (`agentctl hook user-prompt-submit`: asks for a `/rename` until the session has a human name)
 
 ## 2026-11-04
