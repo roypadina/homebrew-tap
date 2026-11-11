@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-11
+
+### Changed
+- `agents-session-hopper` 1.10.0 (usage refresh: Refresh button, `sessionhopper refresh`, auto-refresh of usage over 6 h old)
+
 ## 2026-11-06
 
 ### Changed
