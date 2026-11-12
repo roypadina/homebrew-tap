@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-12
+
+### Changed
+- `meetalert` 1.9.2 (dismiss/ignore clears every open alert, escalation and snooze; Google Meet location labels no longer trigger travel alerts)
+
 ## 2026-11-11
 
 ### Changed
