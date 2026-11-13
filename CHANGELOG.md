@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-13
+
+### Changed
+- `meetalert` 1.9.3 (one popup per meeting occurrence, ACK on an earlier phone push still stops it; saved settings survive launch)
+
 ## 2026-11-12
 
 ### Changed
