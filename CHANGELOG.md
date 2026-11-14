@@ -14,6 +14,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 - `obsidian-vault-git-watcher` 0.5.0 (Ko-fi support card after a vault is back in sync; at most 3 asks a year)
 - `ntfybar` 1.7.0 (occasional Ko-fi support card after you handle a notification; at most 3 asks a year)
 - `window-organizer` 0.5.0 (Ko-fi support card after a bulk action; at most 3 asks a year)
+- `vaultbar` 0.5.0 (Ko-fi support card after a manual lock; at most 3 asks a year)
 
 ## 2026-11-13
 
