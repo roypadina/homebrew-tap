@@ -11,6 +11,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ### Changed
 - `languard` 1.4.0 (Ko-fi support card after a dock; at most 3 asks a year)
 - `meetalert` 1.10.0 (occasional Ko-fi support card after a meeting ends; at most 3 asks a year)
+- `obsidian-vault-git-watcher` 0.5.0 (Ko-fi support card after a vault is back in sync; at most 3 asks a year)
 - `ntfybar` 1.7.0 (occasional Ko-fi support card after you handle a notification; at most 3 asks a year)
 - `window-organizer` 0.5.0 (Ko-fi support card after a bulk action; at most 3 asks a year)
 
