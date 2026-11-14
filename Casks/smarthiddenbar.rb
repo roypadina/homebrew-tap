@@ -1,6 +1,6 @@
 cask "smarthiddenbar" do
-  version "1.6.1"
-  sha256 "6e64ca122d117d48daaf9ab8c0cf2226e5fc38a786895bad6c893c806db02240"
+  version "1.7.0"
+  sha256 "664b95dd8970ee417b8268fbe862d8d81cbb17ef5c0f101481671cbcc9e07372"
 
   url "https://github.com/roypadina/SmartHiddenBar/releases/download/v#{version}/SmartHiddenBar.zip"
   name "SmartHiddenBar"
