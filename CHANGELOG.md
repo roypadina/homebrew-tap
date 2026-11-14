@@ -18,6 +18,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 - `smarthiddenbar` 1.7.0 (Ko-fi support card after you tidy the bar; at most 3 asks a year)
 - `maccyplus` 2.11.0 (Ko-fi support card after you pick from the history or run a rule action; at most 3 asks a year)
 - `agents-monitor` 1.10.0 (Ko-fi support card after you close the popover on a calm look at usage; at most 3 asks a year)
+- `agents-session-hopper` 1.11.0 (Ko-fi support card after a hop kept a conversation going; at most 3 asks a year)
 
 ## 2026-11-13
 
