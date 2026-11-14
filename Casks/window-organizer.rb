@@ -1,6 +1,6 @@
 cask "window-organizer" do
-  version "0.4.1"
-  sha256 "73d428e3d8cfc6dd6bbb585a535653fb90313fca0ea0c1435761cbe096f847d8"
+  version "0.5.0"
+  sha256 "c163781cf6c3be510fe870172f6a69ff7d34a98ce691e9f5c4b48e5f5056f943"
 
   url "https://github.com/roypadina/window-organizer/releases/download/v#{version}/Window-Organizer.zip"
   name "Window Organizer"
