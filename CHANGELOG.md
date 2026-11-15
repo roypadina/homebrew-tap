@@ -9,6 +9,16 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-15
 
 ### Changed
+- `window-organizer` 0.5.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `agents-monitor` 1.10.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `agents-session-hopper` 1.11.3 (no longer takes focus back from another app you clicked into right after opening a window)
+- `languard` 1.4.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `maccyplus` 2.11.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `meetalert` 1.10.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `ntfybar` 1.7.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `obsidian-vault-git-watcher` 0.5.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `smarthiddenbar` 1.7.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `vaultbar` 0.5.2 (no longer takes focus back from another app you clicked into right after opening a window)
 - `window-organizer` 0.5.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
 - `agents-monitor` 1.10.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
 - `agents-session-hopper` 1.11.2 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
