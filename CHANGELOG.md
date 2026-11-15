@@ -19,6 +19,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 - `obsidian-vault-git-watcher` 0.5.2 (no longer takes focus back from another app you clicked into right after opening a window)
 - `smarthiddenbar` 1.7.2 (no longer takes focus back from another app you clicked into right after opening a window)
 - `vaultbar` 0.5.2 (no longer takes focus back from another app you clicked into right after opening a window)
+- `pullping` 0.7.0 (lists by whose turn it is, notifications only when something needs you, new issues in your own repositories, per-repository mute and filter, select several, Mark as Unread, Remind Me, background reviews that end in a draft)
 - `window-organizer` 0.5.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
 - `agents-monitor` 1.10.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
 - `agents-session-hopper` 1.11.2 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)

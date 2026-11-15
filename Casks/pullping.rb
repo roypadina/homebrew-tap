@@ -1,6 +1,6 @@
 cask "pullping" do
-  version "0.6.1"
-  sha256 "5a82d6abf10c3d3d095da0c995dc26ee7291f4e8437ec2e950761468444f6667"
+  version "0.7.0"
+  sha256 "c154c66eb1153ca35ed5ae555de8e82908b216cb59da4c68c761d6ec7ca9ad05"
 
   url "https://github.com/roypadina/PullPing/releases/download/v#{version}/PullPing.zip"
   name "PullPing"
