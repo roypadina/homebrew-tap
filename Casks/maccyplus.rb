@@ -1,6 +1,6 @@
 cask "maccyplus" do
-  version "2.11.0"
-  sha256 "c8c152bf7547850ade1d8eb8bac0de91f166ebbce17ddc0b905eac53d91ba6ef"
+  version "2.11.1"
+  sha256 "e2f23e56a8640afd6725ce46a493b1d87046cfc6f4b99313c7b55ee20b0b4054"
 
   url "https://github.com/roypadina/maccyplus/releases/download/v#{version}/MaccyPlus.zip"
   name "MaccyPlus"

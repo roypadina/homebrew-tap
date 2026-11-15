@@ -1,6 +1,6 @@
 cask "ntfybar" do
-  version "1.7.0"
-  sha256 "8b16aa7cf53ece54fbc23b0222d700bd9f8568618a6dee5d534bb30fe84a309a"
+  version "1.7.1"
+  sha256 "d9dbbe1c306e910abf00eb04194c82cd7e512daec1ed1efa9693756ad038c8ce"
 
   url "https://github.com/roypadina/NtfyBar/releases/download/v#{version}/NtfyBar.zip"
   name "NtfyBar"

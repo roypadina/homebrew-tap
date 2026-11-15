@@ -6,6 +6,20 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-15
+
+### Changed
+- `window-organizer` 0.5.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `agents-monitor` 1.10.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `agents-session-hopper` 1.11.2 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `languard` 1.4.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `meetalert` 1.10.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `maccyplus` 2.11.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `ntfybar` 1.7.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `obsidian-vault-git-watcher` 0.5.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `smarthiddenbar` 1.7.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+- `vaultbar` 0.5.1 (windows opened from the menu bar come to the front on macOS 14+; Check for Updates… too)
+
 ## 2026-11-14
 
 ### Changed
