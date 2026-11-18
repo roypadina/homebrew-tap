@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-18
+
+### Changed
+- `agentctl` 0.14.1 (security: updated dependencies with known advisories)
+
 ## 2026-11-15
 
 ### Changed
