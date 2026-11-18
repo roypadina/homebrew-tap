@@ -10,6 +10,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ### Changed
 - `agentctl` 0.14.1 (security: updated dependencies with known advisories)
+- `meetalert` 1.11.0 (auto-dismiss for unanswered alerts)
 
 ## 2026-11-15
 
