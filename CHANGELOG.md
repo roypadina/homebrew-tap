@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-19
 
 ### Changed
+- `agents-monitor` 1.13.0 (account rename fixed; Settings → Accounts redesign)
 - `agents-monitor` 1.12.0 (reorder accounts in Settings)
 - `agents-monitor` 1.11.0 (local Claude accounts show their login email)
 - `agents-session-hopper` 1.14.0 (Settings redesign: Profiles list with drag to reorder and a rename sheet)
