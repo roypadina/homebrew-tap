@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-19
+
+### Changed
+- `agents-session-hopper` 1.12.0 (each profile shows its login email)
+
 ## 2026-11-18
 
 ### Changed
