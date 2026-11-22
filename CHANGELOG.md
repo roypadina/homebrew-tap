@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-22
+
+### Changed
+- `agents-session-hopper` 1.15.0 (Anthropic API key and any-gateway profiles)
+
 ## 2026-11-19
 
 ### Changed
