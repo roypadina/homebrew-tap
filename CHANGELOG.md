@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-22
 
 ### Changed
+- `agents-session-hopper` 1.16.0 (alerts on Mac and ntfy, per-profile thresholds, move all sessions, shared MCP logins)
 - `agents-monitor` 1.14.1 (silent alerts no longer touch the support card)
 - `agents-monitor` 1.14.0 (alerts master switch, warning/critical switches, Mac and ntfy alerts per account)
 - `agents-session-hopper` 1.15.1 (`sessionhopper run` no longer hangs when the caller keeps stdin open)
