@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-23
 
 ### Changed
+- `agents-session-hopper` 1.18.0 (one plugin set for all profiles)
 - `agents-session-hopper` 1.17.1 (login screens no longer hang)
 - `agents-session-hopper` 1.17.0 (pause profiles, session rules + delegate, session names)
 
