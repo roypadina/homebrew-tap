@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-23
+
+### Changed
+- `agents-session-hopper` 1.17.0 (pause profiles, session rules + delegate, session names)
+
 ## 2026-11-22
 
 ### Changed
