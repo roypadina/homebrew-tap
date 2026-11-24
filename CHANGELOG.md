@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-24
+
+### Changed
+- `languard` 1.4.3 (failed Wi-Fi power changes are reported, sleep/wake fix)
+
 ## 2026-11-23
 
 ### Changed
