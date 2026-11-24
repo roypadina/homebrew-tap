@@ -9,6 +9,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 ## 2026-11-24
 
 ### Changed
+- `agents-session-hopper` 1.18.2 (a missing `SESSIONHOPPER_CLAUDE_BIN` no longer stops sessions)
 - `agents-session-hopper` 1.18.1 (shim-launched sessions no longer run `claude` for hooks and status line)
 - `languard` 1.4.3 (failed Wi-Fi power changes are reported, sleep/wake fix)
 
