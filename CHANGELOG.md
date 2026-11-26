@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-26
+
+### Changed
+- `agents-session-hopper` 1.19.0 (`paid` alert when a session moves onto an API-key profile, label variables for the on-switch hook)
+
 ## 2026-11-24
 
 ### Changed
