@@ -6,6 +6,11 @@ Format follows [Keep a Changelog](https://keepachangelog.com).
 
 ## [Unreleased]
 
+## 2026-11-27
+
+### Changed
+- `agentctl` 0.14.2 (orphan annotations: `done`/`remind` by prefix work when the transcript is gone, marked `(transcript gone)`)
+
 ## 2026-11-26
 
 ### Changed
